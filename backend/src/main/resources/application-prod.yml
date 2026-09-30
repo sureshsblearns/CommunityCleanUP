@@ -1,0 +1,12 @@
+app:
+  seed:
+    demo-data: ${SEED_DEMO_DATA:false}
+  storage:
+    allow-local-fallback: ${ALLOW_LOCAL_UPLOAD_FALLBACK:false}
+springdoc:
+  swagger-ui:
+    enabled: ${SWAGGER_ENABLED:true}
+logging:
+  level:
+    root: INFO
+    com.communitycleanup: INFO
